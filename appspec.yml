@@ -20,6 +20,9 @@ hooks:
   - location: scripts/install_node
     timeout: 300
     runas: root
+  - location: scripts/install_php
+    timeout: 300
+    runas: root
   - location: scripts/install_httpd
     timeout: 300
     runas: root
